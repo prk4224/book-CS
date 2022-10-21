@@ -2,7 +2,7 @@
 
 *모델(Model), 뷰(View), 컨트롤러(Controller)로 이루어진 디자인 패턴*
 
-![Untitled](MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%206a29a95f7e524fbc87703e71b8b89af7/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48992412/197216411-09f02f36-48df-4f74-b45b-e8467d2c85b9.png)
 
 - 애플리케이션의 구성 요소를 세 가지 역할로 구분
 - 개발 프로세스에서 각각의 구성 요소에만 집중해서 개발 가능
@@ -32,13 +32,13 @@ MVC 패턴에는 모델 1 방식과 모델 2 방식이 있는데
 
 - 모델 1
 
-![Untitled](MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%206a29a95f7e524fbc87703e71b8b89af7/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/48992412/197216399-af5733c1-fb5a-4f8a-bb22-47fd5ef9cdf8.png)
 
 모델 1 방식은 Controller 영역에 View 영역을 같이 구현하는 방식이며, 사용자의 요청을 JSP가 전부 처리합니다. 요청을 받은 JSP는 JavaBean Service Class를 사용하여 웹브라우저 사용자가 요청한 작업을 처리하고 그 결과를 출력합니다.
 
 - 모델 2
 
-![Untitled](MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%206a29a95f7e524fbc87703e71b8b89af7/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/48992412/197216409-b9e1d0f9-870d-43fb-b7a7-dfa67e5639cc.png)
 
 모델 2 방식은 웹브라우저 사용자의 요청을 서블릿이 받고 서블릿은 해당 요청으로 View로 보여줄 것인지 Model로 보낼 것인지를 판단하여 전송합니다. 또한 모델 2 방식의 경우 HTML 소스와 JAVA소스를 분리해놓았기 때문에 모델 1 방식에 비해 확장시키기도 쉽고 유지보수 또한 쉽습니다.
 
